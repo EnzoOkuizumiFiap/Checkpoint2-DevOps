@@ -14,11 +14,11 @@ A aplicação consiste em uma **API REST** de gerenciamento de transações fina
 ┌────────────────────────────────────────────────┐
 │               VM (OCI / Azure)                 │
 │                                                │
-│   ┌──────────────────┐  ┌──────────────────┐  │
-│   │  transacoes-api  │  │   mysql-dimdim   │  │
-│   │  (Spring Boot)   │◄─┤   (MySQL 8.0)    │  │
-│   │    porta 8080    │  │   porta 3306     │  │
-│   └──────────────────┘  └──────────────────┘  │
+│   ┌──────────────────┐  ┌──────────────────┐   │
+│   │  transacoes-api  │  │   mysql-dimdim   │   │
+│   │  (Spring Boot)   │◄─┤   (MySQL 8.0)    │   │
+│   │    porta 8080    │  │   porta 3306     │   │
+│   └──────────────────┘  └──────────────────┘   │
 └────────────────────────────────────────────────┘
 ```
 
@@ -159,6 +159,6 @@ docker ps
 
 | Nome | RM |
 |---|---|
-| Enzo Okuizumi | — |
+| Enzo Okuizumi | RM561432 |
 
 > **FIAP** — Checkpoint 2 · DevOps Tools & Cloud Computing
