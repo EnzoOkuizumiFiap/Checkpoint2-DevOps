@@ -45,19 +45,6 @@ A aplicação consiste em uma **API REST** de gerenciamento de transações fina
 
 ---
 
-## 🗃️ Modelo de Dados
-
-**Tabela:** `transacoes`
-
-| Campo | Tipo | Descrição |
-|---|---|---|
-| `id` | INT (PK, AUTO_INCREMENT) | Identificador único |
-| `descricao` | VARCHAR(255) | Descrição da transação |
-| `valor` | DECIMAL(10,2) | Valor (positivo = crédito, negativo = débito) |
-| `data_transacao` | TIMESTAMP | Data e hora da transação |
-
----
-
 ## 🚀 Como Executar
 
 ### Pré-requisitos
@@ -131,27 +118,33 @@ docker ps
 
 ## 📸 Screenshots
 
-### Containers rodando na VM
+### Containers rodando na VM Azure
 
-![Rodando os dois containers](docs/Rodando%20os%20dois%20containers.png)
+![Rodando os dois containers Azure](docs/Rodando%20os%20dois%20containers%20no%20Azure.png)
 
----
+### Containers rodando na VM Oracle
 
-### API respondendo na VM OCI
-
-![GET API da VM OCI](docs/Get%20API%20da%20VM%20OCI.png)
+![Rodando os dois containers OCI](docs/Rodando%20os%20dois%20containers%20na%20OCI.png)
 
 ---
 
-### Requisição via Insomnia na VM OCI
+### API respondendo nas VMs
 
-![GET Insomnia API da VM OCI](docs/Get%20Insomnia%20API%20da%20VM%20OCI.png)
+![GET API da VM OCI](docs/Get%20API%20da%20VM.png)
+
+---
+
+### Requisição via Insomnia nas VMs
+
+![GET Insomnia API da VMs](docs/Get%20Insomnia%20API%20da%20VM.png)
 
 ---
 
 ### Requisições na VM Azure
-
 ![Requisições VM Azure](docs/Requisicoes%20VM%20Azure.png)
+
+### Requisições na VM OCI
+![Requisições VM Azure](docs/Requisicoes%20VM%20OCI.png)
 
 ---
 
