@@ -1,0 +1,3 @@
+https://docs.google.com/document/d/1skNoRgbY-Y7PHVpWBiT4dwdlMC-LTJgygoR9kQ--l8w/edit?usp=sharing
+
+ssh -i ./ssh-key-2026-04-20.key.pub ubuntu@147.15.103.205
